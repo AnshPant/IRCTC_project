@@ -18,6 +18,9 @@ Note: add DBname and other as per your setup in workbench mySQL
 
 Race condition handling: Mutual exclusion is implemented using transaction. Prevent multiple writer to write same variable at once. 
 
+## Technology used
+NodeJS , ExpressJS and MySQL
+
 # TABLE SS
 ## user table
 This table help us to maintain which user is admin or normal user. Also, secret key is used to sign the password and same secret key is used to decrypt the password.
